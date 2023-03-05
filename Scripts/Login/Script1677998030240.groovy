@@ -19,33 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.facebook.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'), 
-    'hungquocduong@yahoo.com')
+WebUI.setText(findTestObject('Object Repository/Facebook/Login/input_email'), GlobalVariable.Email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'), 
-    '/X9k718/GXmFiIHckk+6ZA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Facebook/Login/input_password'), 
+    GlobalVariable.Password)
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_Facebook  log in or sign up/button_Log in'))
+WebUI.click(findTestObject('Facebook/Login/button_Log in'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_Facebook  log in or sign up/div_Log in'))
+WebUI.click(findTestObject('Facebook/Login/menu_sign_off'))
 
-WebUI.click(findTestObject('Object Repository/Page_Facebook  log in or sign up/button_Log in_1'))
-
-WebUI.click(findTestObject('Object Repository/Page_Facebook/svg_Ti khon_x1lliihq x1k90msu x2h7rmj x1qfu_99b887'))
-
-WebUI.click(findTestObject('Object Repository/Page_Facebook/g'))
-
-WebUI.click(findTestObject('Object Repository/Page_Facebook/g'))
-
-WebUI.click(findTestObject('Object Repository/Page_Facebook/span_Ti khon_x4k7w5x x1h91t0o x1h9r5lt xv2u_186148'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_Facebook/path'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_Facebook/g'))
-
-WebUI.click(findTestObject('Object Repository/Page_Facebook/span_ng xut'))
+WebUI.click(findTestObject('Object Repository/Facebook/Login/span_ng xut'))
 
 WebUI.closeBrowser()
 

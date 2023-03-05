@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.facebook.com/'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'hungquocduong@yahoo.com'</initValue>
+      <name>Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/X9k718/GXmFiIHckk+6ZA=='</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

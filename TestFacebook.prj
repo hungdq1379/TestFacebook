@@ -6,6 +6,7 @@
    <UUID>a2ba334a-7738-449c-9ad6-e3d7bcd425f3</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Katalon\TestFacebook\TestFacebook.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
